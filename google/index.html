@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .navbar{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+           background-color: #fff;
+        }
+        .navbar ul{
+            list-style: none;
+            text-align: center;
+           display: flex;
+          justify-content: space-between;
+     
+        }
+        .navbar ul li{
+             padding: 15px 15px 15px 15px;
+             cursor: pointer;
+        }
+        .navbar ul  img{
+        margin-top: 10px;
+         height: 30px;
+         width: 30px;
+        }
+        .navbar ul  img:hover{
+            opacity: 0.8;
+        }
+        .navbar ul li a{
+          text-decoration: none;
+          color: black;
+        }
+        .l1:hover{
+          text-decoration: underline;
+          color: rgb(61, 57, 57);
+          opacity: 0.6;
+        }
+        .l2:hover{
+          text-decoration: underline;
+          color: rgb(74, 71, 71);
+          opacity: 0.6;
+        }
+        
+        .b1{
+            height:35px;
+            width: 85px;
+            border-radius: 4px;
+            border: 1px solid #1a73e8;
+            background-color: #1a73e8;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: white;
+            cursor: pointer;
+        }
+        .b1:hover{
+          opacity: 0.8;
+          
+        }
+        .main {
+          display: grid;
+       place-items: center;
+           margin-top: 150px;
+        }
+        .icon{
+            border-radius: 20px;
+            height: 40px;
+            width: 700px;
+            margin-top: 20px;
+            
+        }
+        .but{
+            margin-top: 30px;
+        }
+        .one{
+            height: 35px;
+            width: 150px;
+            border-radius:6px ;
+            background-color: #f5f0f0;
+            border: none;
+            margin-right: 10px;
+        }
+        .two{
+            height: 35px;
+            width: 150px;
+            border-radius:6px ;
+            background-color: #f5f0f0;
+            border: none;
+            margin-right: 10px;
+        }
+        .other{
+            margin-top: 10px;
+        }
+        .other p{
+            margin-left: 5px;
+        }
+        .other a{
+            text-decoration: none;
+            padding: 3px;
+            opacity: 0.7;
+        }
+        footer{
+            height: 120px;
+            width: 100%;
+            background-color: #f5f0f0;
+            margin-top: 200px;
+        }
+        footer p{
+            margin-top: 55px;
+        }
+        footer a{
+            text-decoration: none;
+            color: black;
+           display: inline-block;
+           justify-content: space-between;
+           padding: 10px 10px 10px ;
+           opacity: 0.9;
+        }
+        footer a:hover{
+            text-decoration: underline;
+        }
+        .p1{
+         margin-left: 900px;
+        }
+        .box1{
+            display: flex;
+            place-items: center;
+           
+        }
+        .box{
+            height: 20px;
+            width: 20px;
+            margin-right: -25px;
+            z-index: 2;
+        }
+        .box2{
+            height: 20px;
+            width: 20px;
+            margin-left: -70px;
+        }
+        .box3{
+            height: 20px;
+            width: 20px;
+            margin-left: -100px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li class="l1 "> <a href="#">Gmail</a></li>
+            <li class="l2"><a href="#">image</a></li>
+            <img src="g-menu-removebg-preview.png" alt="1">
+          <button class="b1">Sign in </button>
+        </ul>
+    </div>
+    <div class="main">
+        <img src="logo-removebg-preview.png" alt="2">
+       
+        <div class="box1">
+            <!-- <img src="vs-removebg-preview.png" alt="" class="box"> -->
+           
+            <input type="text" class="icon"  >
+            <!-- <img src="vs-removebg-preview.png" alt="" class="box2"> -->
+            <!-- <img src="vs-removebg-preview.png" alt="" class="box3"> -->
+        </div>
+        <div class="but">
+            <button class="one">Google Search</button>
+            <button class="two">I'm Feeling Lucky</button>
+        </div>
+        <div class="other">
+            <p>Google offered in:
+            <a href="#">हिन्दी</a>
+            <a href="#"> বাংলা</a>
+            <a href="#"> తెలుగు </a>
+            <a href="#">मराठी </a>
+           <a href="#">    தமிழ்</a>
+           <a href="#"> ગુજરાતી</a> 
+           <a href="#">ಕನ್ನಡ </a>
+           <a href="#">മലയാളം </a>
+           <a href="#">ਪੰਜਾਬੀ</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>India</p>
+        <hr>
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Busines</a>
+        <a href="#">How Search Works</a>
+        <a href="#" class="p1">Privacy</a>
+        <a href="#" >Terms</a>
+        <a href="#">Settings</a>
+    </footer>
+  
+    
+</body>
+</html>
